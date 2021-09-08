@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import Car from './Car';
+// import Car from './Car';
 import Xe from './Xe';
+import React from "react";
 
 function App() {
   const html = (
@@ -11,7 +12,6 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <Car />
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -20,8 +20,8 @@ function App() {
         >
           Learn React 123
         </a>
-        <Car />
-        <Xe />
+        <Xe color='red' value='Tôi là xe đỏ' />
+        <Xe color='blue' value='Tôi là xe xanh' />
       </header>
     </div>
   );
